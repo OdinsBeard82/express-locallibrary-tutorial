@@ -1,0 +1,9 @@
+<!-- book_list.ejs -->
+<h1>Book List</h1>
+<ul>
+    <% books.forEach(function(book) { %>
+        <li>
+            <%= book.title %>
+        </li>
+        <% }); %>
+</ul>
